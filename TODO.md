@@ -14,3 +14,10 @@
   * responsive lightboxプラグインでちょっとパワーアップ
     * https://wordpress.org/plugins/responsive-lightbox/
 
+
+----
+
+# Coming soon ページ
+* CMP Setting プラグイン導入
+  * CMP ModeでComing soonページやMaintanance Mode、redirect Modeもできる！
+  * カウントダウン表示機能！！
