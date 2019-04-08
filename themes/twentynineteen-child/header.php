@@ -21,10 +21,6 @@
 				<?php get_template_part( 'template-parts/header/site', 'branding' ); ?>
 			</div><!-- .layout-wrap -->
 
-			<?php 
-			echo do_shortcode('[smartslider3 slider=1]');
-			?>
-
 			<?php if ( is_singular() && twentynineteen_can_show_post_thumbnail() ) : ?>
 				<div class="site-featured-image">
 					<?php

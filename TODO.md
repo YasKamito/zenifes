@@ -1,7 +1,10 @@
 # TODO
 
 ## action
-* [ ] gallaryプラグイン作成
+* [ ] gallaryプラグイン導入
+* [ ] header
+* [ ] footer
+* [ ] メインページ
 
 ## wait
 * [ ] デザイン画像まち
