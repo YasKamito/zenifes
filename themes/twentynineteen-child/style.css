@@ -9,3 +9,90 @@ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
 Text Domain:  twenty-nineteen-child
 */
+
+body {
+  width: 100%;
+}
+
+/* Common */
+.-flexbox {
+  display: flex;
+}
+.-flex--row {
+  flex-direction: row;
+}
+.-flex--column {
+  flex-direction: column;
+}
+.-flex--vcenter {
+  align-items: center;
+}
+.-flex--hcenter {
+  justify-content: center;
+}
+
+.-align--center {
+  text-align: center;
+}
+.-align--left {
+  text-align: left;
+}
+.-align--right {
+  text-align: left;
+}
+
+.-bg--blue-grade {
+  background: #2497da;  /* fallback for old browsers */
+  background: linear-gradient(180deg, rgba(36, 151, 218, 0.8), rgba(0, 73, 134, 1));
+}
+.-bg--blue {
+  background-color: #004986;
+}
+
+.-text--white {
+  color: #fff;
+}
+
+/* Header */
+.site-header {
+  padding: 0;
+}
+.site-branding {
+  margin: 0;
+}
+.site-title-header {
+  padding: 20px;
+  justify-content: space-between;
+}
+.site-title-header .left-area {
+  flex-direction: column;
+}
+.social-area a {
+  background-color: #fff;
+  display: block;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50%;
+}
+.social-area a img {
+  width: 100%;
+  height: auto;
+}
+
+/* Top */
+
+
+/* Footer */
+
+
+@media screen and (min-width: 768px) {
+  body {
+    min-width: 1152px;
+    overflow: auto;
+  }
+  .site-title-header .left-area {
+    flex-direction: row;
+  }
+}

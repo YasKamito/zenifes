@@ -7,27 +7,29 @@
  * @since 1.0.0
  */
 ?>
+<?php $description = get_bloginfo( 'description', 'display' ); ?>
+
 <div class="site-branding">
 
-	<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-kamome.png" alt="ZENIBAKO FES"/></a></p>
+	<div class="site-title-header -bg--blue-grade -flexbox">
+		<div class="left-area -flexbox -flex--vcenter">
+			<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-kamome.png" alt="ZENIBAKO FES"/></a></p>
+			<?php if ( $description ) :?>
+				<p class="site-description -text--white">
+					<?php echo $description; ?>
+				</p>
+			<?php endif; ?>
+		</div>
 
-	<?php
-	$description = get_bloginfo( 'description', 'display' );
-	if ( $description || is_customize_preview() ) :
-		?>
-			<p class="site-description">
-				<?php echo $description; ?>
-			</p>
-	<?php endif; ?>
-
-	<div class="social-area">
-	<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/facebook-logo.png" alt="Facebook"/></a>
-	<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/twitter-logo.png" alt="Twitter"/></a>
-	<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/instagram-logo.png" alt="Instagram"/></a>
-	</div>
+		<div class="social-area -flexbox">
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/facebook-logo.png" alt="Facebook"/></a>
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/twitter-logo.png" alt="Twitter"/></a>
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/instagram-logo.png" alt="Instagram"/></a>
+		</div>
+	</div><!-- /-flexbox-->
 
 	<?php if ( is_front_page() ) : ?>
-		<?php 
+		<?php
 		echo do_shortcode('[smartslider3 slider=1]');
 		?>
 	<?php endif; ?>
