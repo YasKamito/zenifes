@@ -9,7 +9,7 @@
 ?>
 <div class="site-branding">
 
-	<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="ZENIBAKO FES"/></a></p>
+	<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-kamome.png" alt="ZENIBAKO FES"/></a></p>
 
 	<?php
 	$description = get_bloginfo( 'description', 'display' );
