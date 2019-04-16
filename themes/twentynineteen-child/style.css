@@ -30,6 +30,13 @@ body {
 .-flex--hcenter {
   justify-content: center;
 }
+.-flex--hstart {
+  justify-content: flex-start;
+}
+.-flex--rowwrap {
+  flex-flow: row wrap;
+}
+
 
 .-align--center {
   text-align: center;
@@ -64,14 +71,23 @@ body {
   padding: 20px;
   justify-content: space-between;
 }
+.site-title {
+  margin: 0;
+}
 .site-title-header .left-area {
-  flex-direction: column;
+  width: calc(100% - 210px);
+}
+.site-description {
+  font-size: 1em;
+}
+.site-description::before {
+  content: none !important;
 }
 .social-area a {
   background-color: #fff;
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   padding: 10px;
   margin: 10px;
   border-radius: 50%;
@@ -92,7 +108,7 @@ body {
     min-width: 1152px;
     overflow: auto;
   }
-  .site-title-header .left-area {
-    flex-direction: row;
+  .site-description {
+    margin-left: 20px;
   }
 }

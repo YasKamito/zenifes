@@ -12,7 +12,7 @@
 <div class="site-branding">
 
 	<div class="site-title-header -bg--blue-grade -flexbox">
-		<div class="left-area -flexbox -flex--vcenter">
+		<div class="left-area -flexbox -flex--rowwrap -flex--vcenter">
 			<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-kamome.png" alt="ZENIBAKO FES"/></a></p>
 			<?php if ( $description ) :?>
 				<p class="site-description -text--white">
