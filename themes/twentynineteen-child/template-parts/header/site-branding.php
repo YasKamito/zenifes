@@ -30,7 +30,7 @@
 
 	<?php if ( is_front_page() ) : ?>
 		<?php
-		echo do_shortcode('[smartslider3 slider=1]');
+		echo do_shortcode('[smartslider3 slider=2]');
 		?>
 	<?php endif; ?>
 
