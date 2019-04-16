@@ -10,8 +10,18 @@ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, access
 Text Domain:  twenty-nineteen-child
 */
 
-body {
+html { font-size: 62.5%; } /* 10px */
+body { 
+  font-size: 1.6rem; 
   width: 100%;
+} /* 16px */
+p  { font-size: 1.6rem; } /* 16px */
+li { font-size: 1.6rem; } /* 16px */
+li p { font-size: 1.6rem; } /* 16px */
+
+/* Clear */
+h1:not(.site-title):before, h2:before{
+  content: none;
 }
 
 /* Common */
@@ -37,6 +47,15 @@ body {
   flex-flow: row wrap;
 }
 
+.-block {
+  display: block;
+}
+.-inline-block{
+  display: inline-block;
+}
+.-block--only-sp {
+  display: block;
+}
 
 .-align--center {
   text-align: center;
@@ -57,7 +76,36 @@ body {
 }
 
 .-text--white {
-  color: #fff;
+  color: #fff !important;
+}
+a.-text--white:active,
+a.-text--white:focus,
+a.-text--white:visited{
+  color: #fff !important;
+}
+
+.-font-size--large {
+  font-size: 3rem;
+}
+
+.-font-size--medium {
+  font-size: 1.25rem;
+}
+
+.-font-size--base {
+  font-size: 1rem;
+}
+
+.-font-size--small {
+  font-size: 0.8rem;
+}
+
+.-font-bold {
+  font-weight: bold;
+}
+
+.-border-radius {
+  border-radius: 5px;
 }
 
 /* Header */
@@ -97,18 +145,84 @@ body {
   height: auto;
 }
 
-/* Top */
+.main-navigation-custom .main-menu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 0 5%;
+  margin-top: 0;
+  width: 100%;
+  border-bottom: solid 2px darkgrey;
+}
 
+.main-navigation-custom .main-menu > li > a {
+  color: black;
+}
+
+.main-navigation-custom .main-menu > li {
+  width: 25%;
+  padding: 10px 0;
+  list-style: none;
+  text-align: center;
+}
+
+.main-menu li.current-menu-item a {
+  border-bottom: solid 2px #004986;
+}
+
+.main-menu-more {
+  display: none !important;
+}
+
+
+
+/* Top */
+.container{
+  margin: 0 auto;
+  width: 95%;
+}
+.event-infomation > div > span:first-child{
+  width: 150px;
+  font-size: 
+}
 
 /* Footer */
+.site-footer {
+  background-image: url("../twentynineteen-child/images/logo2.png");
+  background-repeat: no-repeat;
+  background-position: 20px 40px;
+  background-size: 200px 144px;
+}
 
+.site-footer .link-contact,
+.site-footer .link-contact:hover,
+.site-footer .link-contact:focus {
+  text-decoration: underline !important;
+}
+.site-footer .privacy-policy {
+  margin-top: 20px;
+}
 
 @media screen and (min-width: 768px) {
   body {
     min-width: 1152px;
     overflow: auto;
   }
+
+  /* Common */
+  .-block--only-sp {
+    display: inline;
+  }
+
   .site-description {
     margin-left: 20px;
+  }
+
+  .main-navigation-custom .main-menu {
+    justify-content: space-around;
+  }
+
+  .main-navigation-custom .main-menu > li {
+    width: auto;
   }
 }

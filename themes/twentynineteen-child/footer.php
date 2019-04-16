@@ -7,18 +7,18 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer">
+	<footer id="colophon" class="site-footer -bg--blue">
 		<?php //get_template_part( 'template-parts/footer/footer', 'widgets' ); ?>
-		<div class="site-info">
+		<div class="site-info -align--center">
 			<?php $blog_info = get_bloginfo( 'name' ); ?>
 			<?php if ( ! empty( $blog_info ) ) : ?>
 				<a class="site-name" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="ZENIBAKO FES"/></a>,
 			<?php endif; ?>
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>contact" rel="contact">お問い合わせ</a>
+			<a class="link-contact -block -text--white -font-size--medium -font-bold" href="<?php echo esc_url( home_url( '/' ) ); ?>contact" rel="contact">お問い合わせはこちら</a>
 			
-			<div class="privacy-policy">
-				<p>&copy; Copyright ZENIBAKOFES All Rights Reserved.</p>
-				<p>※当サイトに掲載された文章や画像等の著作物を無断で転用・掲載することを禁止いたします。</p>
+			<div class="privacy-policy -text--white -font-size--small">
+				<div>&copy; ZENIBAKOFES All Rights Reserved.</div>
+				<div>※当サイトに掲載された文章や画像等の著作物を無断で転用・掲載することを禁止いたします。</div>
 			</div>
 
 			<?php if ( has_nav_menu( 'footer' ) ) : ?>

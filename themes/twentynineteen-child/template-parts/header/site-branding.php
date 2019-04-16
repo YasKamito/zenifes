@@ -35,7 +35,7 @@
 	<?php endif; ?>
 
 	<?php if ( has_nav_menu( 'menu-1' ) ) : ?>
-		<nav id="site-navigation" class="main-navigation" aria-label="<?php esc_attr_e( 'Top Menu', 'twentynineteen' ); ?>">
+		<nav id="site-navigation" class="main-navigation-custom" aria-label="<?php esc_attr_e( 'Top Menu', 'twentynineteen' ); ?>">
 			<?php
 			wp_nav_menu(
 				array(
