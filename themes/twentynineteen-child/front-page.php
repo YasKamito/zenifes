@@ -73,7 +73,7 @@ get_header();
         </div>
         <section id="video-block" class="video-block-area -bg--lgray -align--center ">
             <div class="section-inner">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/atXa6xuBasg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5qEX3kgxFwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p>「この海越えて」 Kiho × 中田雅史　　作詞・作曲：中田雅史</p>
             </div>
         </section>
