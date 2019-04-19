@@ -188,7 +188,7 @@ a.-text--lgray:visited{
   margin: 0;
 }
 .front-subtitle {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .site-title > a > img {
   width: 275px;
@@ -264,6 +264,10 @@ section > .section-inner{
   width: 100%;
   max-width: 520px;
   margin: 40px auto;
+}
+
+.event-infomation > .-flexbox {
+  flex-direction: column;
 }
 
 .event-infomation > div {
@@ -381,7 +385,6 @@ section > .section-inner{
 }
 .wp-block-columns.has-3-columns > .wp-block-column {
   width: 100% !important;
-  margin-bottom: 0 !important;
 }
 .wp-block-column:not(:first-child), .wp-block-column:nth-child(2n) {
   margin-left: 0 !important;
@@ -523,6 +526,10 @@ section > .section-inner{
 
   .front-subtitle {
     font-size: 3rem;
+  }
+
+  .event-infomation > .-flexbox {
+    flex-direction: row;
   }
 
   /* Common */
