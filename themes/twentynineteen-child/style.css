@@ -155,6 +155,9 @@ a.-text--lgray:visited{
 .-margin--top-100 {
   margin-top: 100px !important;
 }
+.-margin--bottom10 {
+  margin-bottom: 10 !important;
+}
 
 .-circle--num-red {
   display: inline-block;
@@ -378,7 +381,9 @@ section > .section-inner{
 /* Tickets */
 .ticket-column > .wp-block-column {
   border: solid 1px #eee;
+  padding-bottom: 10px !important;
 }
+
 .ticket-column > .wp-block-column > .subtitle {
   color: #fff;
   font-size: 2rem;
