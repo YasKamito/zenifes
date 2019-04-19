@@ -187,6 +187,9 @@ a.-text--lgray:visited{
 .site-title {
   margin: 0;
 }
+.front-subtitle {
+  font-size: 1.5rem;
+}
 .site-title > a > img {
   width: 275px;
 }
@@ -482,7 +485,7 @@ section > .section-inner{
 /* History */
 .history-comment > .wp-block-column:first-child {
   max-width: 180px;
-  margin: 32px 0 10px;
+  margin: 0 10px;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
@@ -516,6 +519,10 @@ section > .section-inner{
 
   .site-title-header {
     padding: 0 20px;
+  }
+
+  .front-subtitle {
+    font-size: 3rem;
   }
 
   /* Common */
