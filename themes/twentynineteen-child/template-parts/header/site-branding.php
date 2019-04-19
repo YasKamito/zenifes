@@ -22,9 +22,9 @@
 		</div>
 
 		<div class="social-area -flexbox">
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/facebook-logo.png" alt="Facebook"/></a>
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/twitter-logo.png" alt="Twitter"/></a>
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/instagram-logo.png" alt="Instagram"/></a>
+			<a href="https://www.facebook.com/zenibakofes" rel="Facebook"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/facebook-logo.png" alt="Facebook"/></a>
+			<!--<a href="<?php //echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php //echo get_stylesheet_directory_uri(); ?>/images/twitter-logo.png" alt="Twitter"/></a> -->
+			<!--<a href="<?php //echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php //echo get_stylesheet_directory_uri(); ?>/images/instagram-logo.png" alt="Instagram"/></a> -->
 		</div>
 	</div><!-- /-flexbox-->
 

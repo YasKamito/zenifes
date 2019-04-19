@@ -414,9 +414,9 @@ section > .section-inner{
 }
 
 /* MW WP Form */
-.mw_wp_form_input {
+.mw_wp_form {
   width: 75%;
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
 
 /* Artist */
