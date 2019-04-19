@@ -387,7 +387,7 @@ section > .section-inner{
 /* Tickets */
 .ticket-column > .wp-block-column {
   border: solid 1px #eee;
-  padding-bottom: 10px !important;
+  margin-bottom: 10px !important;
 }
 
 .ticket-column > .wp-block-column > .subtitle {
