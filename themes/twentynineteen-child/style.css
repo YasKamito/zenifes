@@ -281,7 +281,7 @@ section > .section-inner{
 }
 
 .event-infomation > div > div:nth-child(2){
-  width: calc(100% - 150px);
+  width: 100%;
   padding-left: 10px;
 }
 
@@ -530,6 +530,11 @@ section > .section-inner{
 
   .event-infomation > .-flexbox {
     flex-direction: row;
+  }
+
+  .event-infomation > div > div:nth-child(2){
+    width: calc(100% - 150px);
+    padding-left: 10px;
   }
 
   /* Common */
