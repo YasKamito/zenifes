@@ -181,17 +181,20 @@ a.-text--lgray:visited{
   margin: 0;
 }
 .site-title-header {
-  padding: 20px;
+  padding: 10px 20px;
   justify-content: space-between;
 }
 .site-title {
   margin: 0;
 }
+.site-title > a > img {
+  width: 275px;
+}
 .site-title-header .left-area {
-  width: calc(100% - 210px);
+  width: auto;
 }
 .site-description {
-  font-size: 1em;
+  font-size: 0.8em;
 }
 .site-description::before {
   content: none !important;
@@ -199,8 +202,8 @@ a.-text--lgray:visited{
 .social-area a {
   background-color: #fff;
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   padding: 10px;
   margin: 10px;
   border-radius: 50%;
@@ -349,6 +352,9 @@ section > .section-inner{
 }
 
 /* entry content */
+.entry .entry-header > .entry-title {
+  margin: 20px 0;
+}
 .entry .entry-content > h2 {
   text-align: center;
 }
@@ -463,10 +469,10 @@ section > .section-inner{
   max-width: 220px;
 }
 .wp-block-columns.main-stage-column {
-  flex-wrap: nowrap !important;
+  /*flex-wrap: nowrap !important;*/
 }
 .wp-block-columns.cafe-stage-column > .wp-block-column >.wp-block-columns {
-  flex-wrap: nowrap !important;
+  /*flex-wrap: nowrap !important;*/
 }
 .cafe-stage-column {
   flex-wrap: wrap;
@@ -498,6 +504,18 @@ section > .section-inner{
   body {
     min-width: 1152px;
     overflow: auto;
+  }
+
+  .site-description {
+    font-size: 1em;
+  }
+
+  .site-title-header .left-area {
+    width: auto;
+  }
+
+  .site-title-header {
+    padding: 0 20px;
   }
 
   /* Common */
