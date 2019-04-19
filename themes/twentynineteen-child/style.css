@@ -387,6 +387,11 @@ section > .section-inner{
   color: #000 !important;
 }
 
+/* MW WP Form */
+.mw_wp_form_input {
+  width: 75%;
+  margin: 0 auto;
+}
 
 /* Artist */
 .artist-column > .wp-block-column:nth-child(1),
