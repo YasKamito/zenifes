@@ -12,7 +12,7 @@ get_header();
             <section id="event-block" class="event-block-area">
                 <div class="section-inner">
                     <div class="-align--center">
-                        <h2 class="-align--center -font-size--large -yellowliner -inline-block">銭函フェス２０１９　開催決定！</h2>
+                        <h2 class="front-subtitle -align--center -yellowliner -inline-block">銭函フェス２０１９　開催決定！</h2>
                         <div>
                             <span class="-block--only-sp">海の日、銭函が音楽につつまれます！</span>
                             <span class="-block--only-sp">今年もまた、のんびりとしつつも熱い一日がやってきます！</span>
@@ -33,7 +33,7 @@ get_header();
                             <div>
                                 <span class="-block">しろくまコーヒー／レストラン癒月／</span>
                                 <span class="-block">Cafe&Hall Matano／View Cafe／sunaie</span>
-                                <span class="-block">※会場について　<a href="" class="-text--lgray -text--underline"> 詳しくはこちら</a></span>
+                                <span class="-block">※会場について　<a href="<?php echo esc_url( home_url( '/' ) ); ?>stage" class="-text--lgray -text--underline"> 詳しくはこちら</a></span>
                             </div>
                         </div>
                     </div>
