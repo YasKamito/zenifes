@@ -12,7 +12,7 @@ get_header();
             <section id="event-block" class="event-block-area">
                 <div class="section-inner">
                     <div class="-align--center">
-                        <h2 class="front-subtitle -align--center -yellowliner -inline-block">銭函フェス２０１９　開催決定！</h2>
+                        <h1 class="front-subtitle -align--center -yellowliner -inline-block">銭函フェス２０１９　開催決定！</h1>
                         <div>
                             <span class="-block--only-sp">海の日、銭函が音楽につつまれます！</span>
                             <span class="-block--only-sp">今年もまた、のんびりとしつつも熱い一日がやってきます！</span>
@@ -41,7 +41,7 @@ get_header();
             </section>
             <section id="news-block" class="news-block-area">
                 <div class="section-inner">
-                    <h3 class="-font-size--medium">お知らせ</h3>
+                    <h3>お知らせ</h3>
                     <div class="news-list -border-radius -bg--white">
                         <ul>
                         <?php
